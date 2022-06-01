@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Relatório de Monetização
+        </title>
+        <meta 
+        charset="utf-8"
+        content="width=device-width, initial-scale=1.0"
+        >
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="../bootstrap/css/bootstrap.min.css">
+        <script src="../bootstrap/js/bootstrap.min.js">
+        </script>
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="../css/style.css">
+    </head>
+    <body>
+        <nav 
+        class="navbar navbar-expand-lg navbar-light bg-secondary bg-opacity-25">
+            <!--Inicio da div(divisoria)
+                Atributo class como a classe do bootstrap de divisoria
+                como container-fluid(container fluido)-->
+            <div 
+            class="container-fluid">
+                <!--Inicio da a(ancora)
+                    Atributo class como a classe do bootstrap de ancora
+                    como navbar-brand(marca da barra de navegação)
+                    Atributo href ou hiperlinkreference nullo por isso o #-->
+                <a 
+                class="navbar-brand texto_Z"
+                href="../index.html">
+                    <img 
+                    src="../img/logo_Zero_ILuminum_oficial_2_300px_sem_fundo_2.png">
+                    Zero ILuminum
+                </a>
+                <!--Fim da a(ancora)
+                    da classe navbar-brand-->
+                <!--Inicio de um button(botão)
+                    Atributo class como a classe do bootstrap de botão 
+                    navbar-toggler(barra de navegação alternada)
+                    Atributo type como button(botão)
+                    Atributo data-bs-toggle(dado bs alternado) como collapse(colapso)
+                    Atributo data-bs-target(dado bs alvo) 
+                    como #navbarSupportedContent(#conteudo supportado por barra de navegação)
+                    Atributo aria-controls(controles de melodia) 
+                    como navbarSupportedContent(conteudo supportado por barra de navegação)
+                    Atributo aria-expanded(melodia expandida) como false(desativado)
+                    Atributo aria-label(etiqueta de melodia) 
+                    como Toggle navigation(navegação alternada)-->
+                <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                    <!--Inicio do span(vão de espaço)
+                        Atributo classe do bootstrap de span
+                        como navbar-toggler-icon(icone de barra de navegação alternada)-->
+                    <span 
+                    class="navbar-toggler-icon">
+
+                    </span>
+                    <!--Fim do span(vão de espaço) da classe navbar-toggler-icon-->
+                </button>
+                <!--Fim do button da classe navbar-toggler-->
+                <!--Inicio da div(divisão)
+                    Atributo classe do bootstrap como collapse(colapso)
+                        navbar-collapse(colapso de barra de navegação)
+                    Atributo id(identificador) 
+                    como navbarSupportedContent(Conteudo suportado por barra de navegação)-->
+                <div 
+                class="collapse navbar-collapse" 
+                id="navbarSupportedContent">
+                    <!--Inicio da ul(lista desordenada)
+                        Atributo classe do bootstrap 
+                        como navbar-nav(barra de navegação navegavel)
+                            me-auto(o me como automatico)
+                                mb-2(o mb na forma 2)
+                                    mb-lg-0(o mb como lg na forma 0)-->
+                    <ul 
+                    class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!--Inicio do li(item da lista)
+                            Atributo classe do bootstrap 
+                            como nav-item(item da barra de navegação)-->
+                        <li 
+                        class="nav-item">
+                            <!--Inicio da a(ancora)
+                                Atributo classe do bootstrap 
+                                como nav-link(link da barra de navegação)
+                                    active(ativo)
+                                Atributo aria-current(melodia atual)
+                                Atributo href(referencia de hiperlink)-->
+                            <a 
+                            class="nav-link active"
+                            aria-current="page"
+                            href="../index.html"
+                            >
+                                Página Inicial
+                            </a>
+                            <!--Fim da a(ancora) da classe nav-link active-->
+                        </li>
+                        <!--Fim do li(item da lista) da classe nav-item-->
+                        <!--Inicio do li(item da lista)
+                            Atributo classe do bootstrap como
+                            nav-item(item de barra de navegação)
+                                dropdown(se divide para baixo)-->
+                        <li class="nav-item dropdown">
+                            <!--Inicio da a(ancora)
+                                Atributo classe do bootstrap 
+                                como nav-link(link da barra de navegação)
+                                    dropdown-toggle(alternacia para cair para baixo)
+                                Atributo href(referencia de hiperlink)
+                                Atributo id(identificador) 
+                                como navbarDropdown(barra de navegação que cai)
+                                Atributo role(papel) como button(botão)
+                                Atributo data-bs-toggle(alteração de dados para bs) 
+                                como dropdown(cair para baixo)
+                                Atributo aria-expanded(espanção da melodia)
+                                como false(desativado)-->
+                            <a 
+                            class="nav-link dropdown-toggle active" 
+                            href="#" 
+                            id="navbarDropdown" 
+                            role="button" 
+                            data-bs-toggle="dropdown" 
+                            aria-expanded="false">
+                                Categorias
+                            </a>
+                            <!--Fim da a(ancora) da classe nav-link dropdown-toggle-->
+                            <!--Inicio da ul(lista desordenada)
+                                Atribudo classe do bootstrap
+                                como dropdown-menu(menu que cai)
+                                Atributo aria-Labelledby(melodia liderada por Etiqueta)
+                                como navbarDropdown(barra de navegação que cai)-->
+                            <ul 
+                            class="dropdown-menu" 
+                            aria-labelledby="navbarDropdown">
+                                <!--Inicio do li(item de lista)-->
+                                <!--
+                                <li>
+                                    Inicio da a(ancora)
+                                        Atributo classe do boostrap
+                                        como dropdown-item(item de menu que cai)
+                                        Atributo href(referencia de hiperlink)
+                                    <a 
+                                    class="dropdown-item"
+                                    href="#">
+                                        Relatórios de Comportamento Google Analytics
+                                    </a>
+                                    Fim da a(ancora) da classe dropdown-item
+                                </li>
+                                -->
+                                <!--Fim do li(item de lista)-->
+                                <!--Inicio do li(item de lista)-->
+                                <li>
+                                    <!--Inicio da a(ancora)
+                                        Atributo classe do boostrap
+                                        como dropdown-item(item de menu que cai)
+                                        Atributo href(referencia de hiperlink)-->
+                                    <a 
+                                    class="dropdown-item"
+                                    href="#">
+                                        Relatórios de Monetização Google Analytics
+                                    </a>
+                                    <!--Fim da a(ancora) da classe dropdown-item-->
+                                </li>
+                                <!--Fim do li(item de lista)-->
+                                <!--Inicio do li(item de lista)-->
+                                <!--
+                                <li>
+                                    Inicio da a(ancora)
+                                        Atributo classe do boostrap
+                                        como dropdown-item(item de menu que cai)
+                                        Atributo href(referencia de hiperlink)
+                                    <a 
+                                    class="dropdown-item"
+                                    href="#">
+                                        Relatórios Demográficos Google Analytics
+                                    </a>
+                                    Fim da a(ancora) da classe dropdown-item
+                                </li>
+                                -->
+                                <!--Fim do li(item de lista)-->
+                                <!--Inicio do li(item de lista)-->
+                                <li>
+                                    <!--Inicio do hr(Horizontal Rule, Regra horizontal e uma linha)
+                                        Atributo classe do bootstrap
+                                        como dropdown-divider(divisor de menu que cai)-->
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <!--Fim do li(item de lista)-->
+                                <li>
+                                    <a class="dropdown-item" href="../Templates/sobre_a_zero_iluminum.html">
+                                        Sobre a Zero ILuminum
+                                    </a>
+                                </li>
+                                <!--Fim do li(item de lista)-->
+                            </ul>
+                            <!--Fim da ul(lista desordenada) da classe dropdown-menu-->
+                            <!--Inicio do li(item da lista)
+                            Atributo classe do bootstrap 
+                            como nav-item(item da barra de navegação)-->
+                            <li 
+                            class="nav-item">
+                            <!--Inicio da a(ancora)
+                                Atributo classe do bootstrap
+                                como nav-link(link da barra de navegação)-->
+                            <a 
+                            class="nav-link active"
+                            href="entre_em_contato.html">
+                                Entre em contato
+                            </a>
+                            <!--Fim da a(ancora) da classe nav-link-->
+                            </li>
+                            <!--Fim do li(item da lista) da classe nav-item-->
+                        </li>
+                        <!--Fim do li(item da lista) da classe nav-item dropdown 
+                            Fim do menu dropdown-->
+                    </ul>
+                    <!--Fim da ul(lista desordenada) da classe navbar-nav me-auto mb-2 mb-lg-0
+                        Fim da escrita na barra de navegação-->
+                    <!--Inicio do form(formulario)
+                        Atributo classe do bootstrap 
+                        como d-flex(flexivel d)-->
+                    <!--Fim do form(formulario) da classe d-flex-->
+                </div>
+                <!--Fim da div da classe collapse navbar-collapse e id navbarSupportedContent-->
+            </div>
+            <!--Fim da div(divisoria) 
+                da classe container-fluid-->
+        </nav>
+        <!--Fim de nav(barra de navegação) 
+            da classe navbar navbar-expand-lg navbar-light bg-light-->
+        <main>
+            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                <div class="col-md-5 p-lg-5 mx-auto my-5">
+                    <h1 class="display-4 fw-normal">Relatórios de Monetização</h1>
+                    <p class="lead fw-normal">
+                        O Relatório de Monetização se divide em várias categorias 
+                        de relatórios e cada categoria contém diversos relatórios sobre as mesmas, 
+                        porém todos eles tratam da parte monetária de 
+                        seus negócios essas categorias são:
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                Visão geral da monetização
+                            </li>
+                            <li class="list-group-item">
+                                Compras de comércio eletrônico
+                            </li>
+                            <li class="list-group-item">
+                                Compras no aplicativo
+                            </li>
+                            <li class="list-group-item">
+                                Anúncios do editor
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+                  <div class="product-device shadow-sm d-none d-md-block">
+                  </div>
+                  <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+                  </div>
+                </div>
+                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                    <div class="col-md-5 p-lg-5 mx-auto my-5">
+                        <h1 class="display-4 fw-normal">Visão geral da Monetização</h1>
+                        <p class="lead fw-normal">
+                            A Categoria de relatórios de Visão geral da Monetização, 
+                            Mostra como o próprio nome diz é uma Visão geral sobre 
+                            todos os relatórios relativos 
+                            à parte monetária de sua empresa esses 
+                            relatórios são:   
+                            <ul class="list-group">
+                            <li class="list-group-item">
+                                Receita Total
+                            </li>
+                            <li class="list-group-item">
+                                Receita do comércio eletrônico
+                            </li>
+                            <li class="list-group-item">
+                                Receita de publicidade total
+                            </li>
+                            <li class="list-group-item">
+                                Total de compradores
+                            </li>
+                            <li class="list-group-item">
+                                Novos compradores
+                            </li>
+                            <li class="list-group-item">
+                                Receita média de compra por usuário
+                            </li>
+                            <li class="list-group-item">
+                                Compras de comércio eletrônico por Nome do item
+                            </li>
+                            <li class="list-group-item">
+                                Compras de comércio eletrônico por Nome da lista de itens
+                            </li>
+                            <li class="list-group-item">
+                                Visualizações do item por Nome da promoção do item
+                            </li>
+                            <li class="list-group-item">
+                                Receita do comércio eletrônico por Cupom do pedido
+                            </li>
+                            <li class="list-group-item">
+                                Receita do produto por ID do produto
+                            </li>
+                            <li class="list-group-item">
+                                Impressões de anúncios do editor por Bloco de anúncios
+                            </li>
+                            </ul>
+                        </p>
+                    </div>
+                      <div class="product-device shadow-sm d-none d-md-block">
+                      </div>
+                      <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+                      </div>
+                    </div>
+                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                    <div class="col-md-5 p-lg-5 mx-auto my-5">
+                        <h1 class="display-4 fw-normal">Relatório de Receita Total</h1>
+                        <p class="lead fw-normal">
+                            O Relatório de Receita Total 
+                            mostra uma métrica que exibe datas e a quantidade de receita total, 
+                            referente a soma da receita de compras, subscrição e 
+                            publicidade gerada nessas datas, além disso mostra o total 
+                            proveniente da soma da receita de todas estas datas, a seguir 
+                            temos um exemplo do mesmo:
+                        </p>
+                    </div>
+                      <div class="product-device shadow-sm d-none d-md-block">
+                      </div>
+                      <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+                      </div>
+                    </div>
+                    <div class="text-center bg-light">
+                        <img src="../img/Receita total.png" class="rounded" alt="...">
+                    </div>
+                    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                        <div class="col-md-5 p-lg-5 mx-auto my-5">
+                            <h1 class="display-4 fw-normal">Relatório de Receita do Comércio Eletrônico</h1>
+                            <p class="lead fw-normal">
+                                O Relatório de Receita do Comércio Eletrônico 
+                                mostra uma métrica que exibe datas e a 
+                                quantidade de receita total referente a soma da receita gerada
+                                pelos eventos de compras, incluindo impostos e envio, 
+                                gerada nessas datas, além disso mostra 
+                                o total proveniente da soma da receita de todas estas datas, 
+                                a seguir temos um exemplo do mesmo:
+                            </p>
+                        </div>
+                          <div class="product-device shadow-sm d-none d-md-block">
+                          </div>
+                          <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+                          </div>
+                        </div>
+                        <div class="text-center bg-light">
+                            <img src="../img/Receita do comércio eletrônico.png" class="rounded" alt="...">
+                        </div>
+                        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                            <div class="col-md-5 p-lg-5 mx-auto my-5">
+                                <h1 class="display-4 fw-normal">Relatório de Receita de Publicidade Total</h1>
+                                <p class="lead fw-normal">
+                                    O Relatório de Receita de Publicidade Total
+                                    mostra uma métrica que exibe datas e a 
+                                    quantidade de receita total de publicidade
+                                    gerada nessas datas, além disso mostra 
+                                    o total proveniente da soma da receita de todas estas datas, 
+                                    a seguir temos um exemplo do mesmo:
+                                </p>
+                            </div>
+                              <div class="product-device shadow-sm d-none d-md-block">
+                              </div>
+                              <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+                              </div>
+                            </div>
+                            <div class="text-center bg-light">
+                                <img src="../img/Receita de publicidade total.png" class="rounded" alt="...">
+                            </div>
+                            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                                <div class="col-md-5 p-lg-5 mx-auto my-5">
+                                    <h1 class="display-4 fw-normal">Relatório de Total de compradores</h1>
+                                    <p class="lead fw-normal">
+                                        O Relatório de Total de compradores
+                                        mostra uma métrica que exibe datas e a 
+                                        quantidade de total de compradores
+                                        que concluirão eventos de compras gerada nestas dadas, 
+                                        além disso mostra 
+                                        o total proveniente da soma de todos os compradores
+                                        que concluirão eventos de compras em todas estas datas, 
+                                        a seguir temos um exemplo do mesmo:
+                                    </p>
+                                </div>
+                                  <div class="product-device shadow-sm d-none d-md-block">
+                                  </div>
+                                  <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+                                  </div>
+                                </div>
+                                <div class="text-center bg-light">
+                                    <img src="../img/Total de compradores.png" class="rounded" alt="...">
+                                </div>
+                                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                                    <div class="col-md-5 p-lg-5 mx-auto my-5">
+                                        <h1 class="display-4 fw-normal">Relatório de Novos compradores</h1>
+                                        <p class="lead fw-normal">
+                                            O Relatório de Novos compradores
+                                            mostra uma métrica que exibe datas e a 
+                                            quantidade de total de compradores
+                                            que concluirão seu primeiro evento de compra gerada nestas dadas, 
+                                            além disso mostra 
+                                            o total proveniente da soma de todos os compradores
+                                            que concluirão seu primeiro evento obtidos em todas estas datas, 
+                                            a seguir temos um exemplo do mesmo:
+                                        </p>
+                                    </div>
+                                      <div class="product-device shadow-sm d-none d-md-block">
+                                      </div>
+                                      <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+                                      </div>
+                                    </div>
+                                    <div class="text-center bg-light">
+                                        <img src="../img/Novos compradores.png" class="rounded" alt="...">
+                                    </div>
+                                    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                                        <div class="col-md-5 p-lg-5 mx-auto my-5">
+                                            <h1 class="display-4 fw-normal">Relatório Receita Média de Compra por Usuário</h1>
+                                            <p class="lead fw-normal">
+                                                O Relatório de Receita Média de Compra por Usuário 
+                                                mostra uma métrica que exibe datas e a quantidade média de receita 
+                                                gerada pela compra de todos os usuários naquela data em especifico, 
+                                                além disso mostra o total proveniente da soma das medias de todas estas datas, 
+                                                a seguir temos um exemplo do mesmo:
+                                            </p>
+                                        </div>
+                                          <div class="product-device shadow-sm d-none d-md-block">
+                                          </div>
+                                          <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+                                          </div>
+                                        </div>
+                                        <div class="text-center bg-light">
+                                            <img src="../img/Receita média de compra por usuário.png" class="rounded" alt="...">
+                                        </div>
+                                        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                                            <div class="col-md-5 p-lg-5 mx-auto my-5">
+                                                <h1 class="display-4 fw-normal">Relatório Compras de comércio eletrônico por Nome do item ao longo do tempo</h1>
+                                                <p class="lead fw-normal">
+                                                    O Relatório de Compras de comércio eletrônico por Nome do item ao 
+                                                    longo do tempo mostra uma métrica que exibe datas e a 
+                                                    quantidade de compras efetuadas sobre um produto especifico 
+                                                    identificado pelo seu nome, além disso mostra o total proveniente 
+                                                    da soma de todas as vendas daquele produto sobre o período de 
+                                                    tempo delimitado nestas datas, 
+                                                    a seguir temos um exemplo do mesmo:
+                                                </p>
+                                            </div>
+                                              <div class="product-device shadow-sm d-none d-md-block">
+                                              </div>
+                                              <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+                                              </div>
+                                            </div>
+                                            <div class="text-center bg-light">
+                                                <img src="../img/Compras de comércio eletrônico por Nome do item ao longo do tempo.png" class="rounded" alt="...">
+                                            </div>
+                                            <div class="text-center bg-light">
+                                                <img src="../img/Compras de comércio eletrônico por Nome do item ao longo do tempo_2.png" class="rounded" alt="...">
+                                            </div>
+                                            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                                                <div class="col-md-5 p-lg-5 mx-auto my-5">
+                                                    <h1 class="display-4 fw-normal">Relatório Compras de comércio eletrônico por Nome da lista de itens</h1>
+                                                    <p class="lead fw-normal">
+                                                        O Relatório de Compras de comércio eletrônico 
+                                                        por Nome da lista de itens mostra uma métrica que 
+                                                        exibe datas e a quantidade de compras sobre uma 
+                                                        categoria especifica de produtos em cada data, 
+                                                        além disso mostra o total proveniente da soma de 
+                                                        todas as vendas dos produtos destas categorias sobre o 
+                                                        período de tempo delimitado nestas datas, 
+                                                        a seguir temos um exemplo do mesmo:
+                                                    </p>
+                                                </div>
+                                                  <div class="product-device shadow-sm d-none d-md-block">
+                                                  </div>
+                                                  <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+                                                  </div>
+                                                </div>
+                                                <div class="text-center bg-light">
+                                                    <img src="../img/Compras de comércio eletrônico por Nome da lista de itens.png" class="rounded" alt="...">
+                                                </div>
+                                                <div class="text-center bg-light">
+                                                    <img src="../img/Compras de comércio eletrônico por Nome da lista de itens_2.png" class="rounded" alt="...">
+                                                </div>
+                                                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                                                    <div class="col-md-5 p-lg-5 mx-auto my-5">
+                                                        <h1 class="display-4 fw-normal">Relatório Compras de comércio eletrônico</h1>
+                                                        <p class="lead fw-normal">
+                                                            O Relatório de Visualizações da promoção 
+                                                            do item por Nome da promoção do item ao 
+                                                            longo do tempo mostra uma métrica que 
+                                                            exibe datas e a quantidade de visualizações 
+                                                            sobre uma promoção especifica de um produto 
+                                                            em cada data, além 
+                                                            disso mostra o total proveniente da 
+                                                            soma de todas as visualizações das 
+                                                            promoções de um produto sobre o período de 
+                                                            tempo delimitado nestas datas, 
+                                                            a seguir temos um exemplo do mesmo:
+                                                        </p>
+                                                    </div>
+                                                      <div class="product-device shadow-sm d-none d-md-block">
+                                                      </div>
+                                                      <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+                                                      </div>
+                                                    </div>
+                                                    <div class="text-center bg-light">
+                                                        <img src="../img/Visualizações da promoção do item por Nome da promoção do item ao longo do tempo.png" class="rounded" alt="...">
+                                                    </div>
+                                                    <div class="text-center bg-light">
+                                                        <img src="../img/Visualizações da promoção do item por Nome da promoção do item ao longo do tempo_2.png" class="rounded" alt="...">
+                                                    </div>
+                                                    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                                                        <div class="col-md-5 p-lg-5 mx-auto my-5">
+                                                            <h1 class="display-4 fw-normal">Relatório Compras de comércio eletrônico por Cupom do pedido ao longo do tempo</h1>
+                                                            <p class="lead fw-normal">
+                                                                O Relatório de Compras de comércio eletrônico por 
+                                                                Cupom do pedido ao longo do tempo mostra uma métrica 
+                                                                que exibe datas e a quantidade de utilizações de cupons 
+                                                                específicos em cada data, além disso mostra o total 
+                                                                proveniente da soma de todos os cupons utilizados 
+                                                                sobre o período de tempo delimitado nestas datas, a 
+                                                                seguir temos um exemplo do mesmo:
+                                                            </p>
+                                                        </div>
+                                                          <div class="product-device shadow-sm d-none d-md-block">
+                                                          </div>
+                                                          <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+                                                          </div>
+                                                        </div>
+                                                        <div class="text-center bg-light">
+                                                            <img src="../img/Compras de comércio eletrônico por Cupom do pedido ao longo do tempo.png" class="rounded" alt="...">
+                                                        </div>
+                                                        <div class="text-center bg-light">
+                                                            <img src="../img/Compras de comércio eletrônico por Cupom do pedido ao longo do tempo_2.png" class="rounded" alt="...">
+                                                        </div>
+                                                        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                                                            <div class="col-md-5 p-lg-5 mx-auto my-5">
+                                                                <h1 class="display-4 fw-normal">Relatório Compras no aplicativo</h1>
+                                                                <p class="lead fw-normal">
+                                                                    O Relatório de Receita do produto por ID do produto ao longo do tempo
+                                                                    mostra uma métrica 
+                                                                    que exibe datas e a quantidade de receita gerada por produtos
+                                                                    específicos em cada data identificados pelo seu id, além disso mostra o total 
+                                                                    proveniente da soma da receita gerada no período de tempo delimitado nestas datas, a 
+                                                                    seguir temos um exemplo do mesmo:
+                                                                </p>
+                                                            </div>
+                                                              <div class="product-device shadow-sm d-none d-md-block">
+                                                              </div>
+                                                              <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+                                                              </div>
+                                                            </div>
+                                                            <div class="text-center bg-light">
+                                                                <img src="../img/Receita do produto por ID do produto ao longo do tempo.png" class="rounded" alt="...">
+                                                            </div>
+                                                            <div class="text-center bg-light">
+                                                                <img src="../img/Receita do produto por ID do produto ao longo do tempo_2.png" class="rounded" alt="...">
+                                                            </div>
+                                                            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                                                                <div class="col-md-5 p-lg-5 mx-auto my-5">
+                                                                    <h1 class="display-4 fw-normal">Relatório Anúncios do editor</h1>
+                                                                    <p class="lead fw-normal">
+                                                                        O Relatório de Anúncios do editor mostra
+                                                                         uma métrica que exibe datas e a quantidade 
+                                                                         de visualizações em anúncios específicos em cada data, 
+                                                                         além disso mostra o total proveniente da soma das visualizações 
+                                                                         geradas em anúncios no período de tempo delimitado nestas datas, 
+                                                                         a seguir temos um exemplo do mesmo:
+                                                                    </p>
+                                                                </div>
+                                                                  <div class="product-device shadow-sm d-none d-md-block">
+                                                                  </div>
+                                                                  <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+                                                                  </div>
+                                                                </div>
+                                                                <div class="text-center bg-light">
+                                                                    <img src="../img/Impressões de anúncios do editor por Bloco de anúncios ao longo do tempo.png" class="rounded" alt="...">
+                                                                </div>
+                                                                <div class="text-center bg-light">
+                                                                    <img src="../img/Impressões de anúncios do editor por Bloco de anúncios ao longo do tempo_2.png" class="rounded" alt="...">
+                                                                </div>
+            <div 
+            class="container">
+                <footer 
+                class="py-3 my-4">
+                    <ul 
+                    class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li 
+                        class="nav-item texto_Z">
+                            <a 
+                            href="../index.html" 
+                            class="nav-link px-2 text-muted">
+                                Zero ILuminum
+                            </a>
+                        </li>
+                        <li 
+                        class="nav-item">
+                            <a 
+                            href="../index.html" 
+                            class="nav-link px-2 text-muted">
+                                Pagina Inicial
+                            </a>
+                        </li>
+                        <li 
+                        class="nav-item">
+                            <a 
+                            href="entre_em_contato.html" 
+                            class="nav-link px-2 text-muted">
+                                Entre em Contato
+                            </a>
+                        </li>
+                    </ul>
+                        <p 
+                        class="text-center text-muted"> 
+                            &copy; All rights reserved by Zero ILuminum
+                        </p>
+                        <p 
+                        class="text-center text-muted">
+                            &copy; 2021 Zero ILuminum, Inc
+                        </p>
+                </footer>
+            </div>
+    </main>
+    </body>
+</html>

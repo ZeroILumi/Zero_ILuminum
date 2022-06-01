@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Sobre Zero ILuminum
+        </title>
+        <meta 
+        charset="utf-8">
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="../bootstrap/css/bootstrap.min.css">
+        <script src="../bootstrap/js/bootstrap.min.js">
+        </script>
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="../css/style.css">
+    </head>
+    <body>
+        <nav 
+        class="navbar navbar-expand-lg navbar-light bg-secondary bg-opacity-25">
+            <!--Inicio da div(divisoria)
+                Atributo class como a classe do bootstrap de divisoria
+                como container-fluid(container fluido)-->
+            <div 
+            class="container-fluid">
+                <!--Inicio da a(ancora)
+                    Atributo class como a classe do bootstrap de ancora
+                    como navbar-brand(marca da barra de navegação)
+                    Atributo href ou hiperlinkreference nullo por isso o #-->
+                <a 
+                class="navbar-brand texto_Z"
+                href="../index.html">
+                    <img 
+                    src="../img/logo_Zero_ILuminum_oficial_2_300px_sem_fundo_2.png">
+                    Zero ILuminum
+                </a>
+                <!--Fim da a(ancora)
+                    da classe navbar-brand-->
+                <!--Inicio de um button(botão)
+                    Atributo class como a classe do bootstrap de botão 
+                    navbar-toggler(barra de navegação alternada)
+                    Atributo type como button(botão)
+                    Atributo data-bs-toggle(dado bs alternado) como collapse(colapso)
+                    Atributo data-bs-target(dado bs alvo) 
+                    como #navbarSupportedContent(#conteudo supportado por barra de navegação)
+                    Atributo aria-controls(controles de melodia) 
+                    como navbarSupportedContent(conteudo supportado por barra de navegação)
+                    Atributo aria-expanded(melodia expandida) como false(desativado)
+                    Atributo aria-label(etiqueta de melodia) 
+                    como Toggle navigation(navegação alternada)-->
+                <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                    <!--Inicio do span(vão de espaço)
+                        Atributo classe do bootstrap de span
+                        como navbar-toggler-icon(icone de barra de navegação alternada)-->
+                    <span 
+                    class="navbar-toggler-icon">
+
+                    </span>
+                    <!--Fim do span(vão de espaço) da classe navbar-toggler-icon-->
+                </button>
+                <!--Fim do button da classe navbar-toggler-->
+                <!--Inicio da div(divisão)
+                    Atributo classe do bootstrap como collapse(colapso)
+                        navbar-collapse(colapso de barra de navegação)
+                    Atributo id(identificador) 
+                    como navbarSupportedContent(Conteudo suportado por barra de navegação)-->
+                <div 
+                class="collapse navbar-collapse" 
+                id="navbarSupportedContent">
+                    <!--Inicio da ul(lista desordenada)
+                        Atributo classe do bootstrap 
+                        como navbar-nav(barra de navegação navegavel)
+                            me-auto(o me como automatico)
+                                mb-2(o mb na forma 2)
+                                    mb-lg-0(o mb como lg na forma 0)-->
+                    <ul 
+                    class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!--Inicio do li(item da lista)
+                            Atributo classe do bootstrap 
+                            como nav-item(item da barra de navegação)-->
+                        <li 
+                        class="nav-item">
+                            <!--Inicio da a(ancora)
+                                Atributo classe do bootstrap 
+                                como nav-link(link da barra de navegação)
+                                    active(ativo)
+                                Atributo aria-current(melodia atual)
+                                Atributo href(referencia de hiperlink)-->
+                            <a 
+                            class="nav-link active"
+                            aria-current="page"
+                            href="../index.html"
+                            >
+                                Página Inicial
+                            </a>
+                            <!--Fim da a(ancora) da classe nav-link active-->
+                        </li>
+                        <!--Fim do li(item da lista) da classe nav-item-->
+                        <!--Inicio do li(item da lista)
+                            Atributo classe do bootstrap como
+                            nav-item(item de barra de navegação)
+                                dropdown(se divide para baixo)-->
+                        <li class="nav-item dropdown">
+                            <!--Inicio da a(ancora)
+                                Atributo classe do bootstrap 
+                                como nav-link(link da barra de navegação)
+                                    dropdown-toggle(alternacia para cair para baixo)
+                                Atributo href(referencia de hiperlink)
+                                Atributo id(identificador) 
+                                como navbarDropdown(barra de navegação que cai)
+                                Atributo role(papel) como button(botão)
+                                Atributo data-bs-toggle(alteração de dados para bs) 
+                                como dropdown(cair para baixo)
+                                Atributo aria-expanded(espanção da melodia)
+                                como false(desativado)-->
+                            <a 
+                            class="nav-link dropdown-toggle active" 
+                            href="#" 
+                            id="navbarDropdown" 
+                            role="button" 
+                            data-bs-toggle="dropdown" 
+                            aria-expanded="false">
+                                Categorias
+                            </a>
+                            <!--Fim da a(ancora) da classe nav-link dropdown-toggle-->
+                            <!--Inicio da ul(lista desordenada)
+                                Atribudo classe do bootstrap
+                                como dropdown-menu(menu que cai)
+                                Atributo aria-Labelledby(melodia liderada por Etiqueta)
+                                como navbarDropdown(barra de navegação que cai)-->
+                            <ul 
+                            class="dropdown-menu" 
+                            aria-labelledby="navbarDropdown">
+                                <!--Inicio do li(item de lista)-->
+                                <li>
+                                    <!--Inicio da a(ancora)
+                                        Atributo classe do boostrap
+                                        como dropdown-item(item de menu que cai)
+                                        Atributo href(referencia de hiperlink)-->
+                                    <a 
+                                    class="dropdown-item"
+                                    href="#">
+                                        Relatórios de Comportamento Google Analytics
+                                    </a>
+                                    <!--Fim da a(ancora) da classe dropdown-item-->
+                                </li>
+                                <!--Fim do li(item de lista)-->
+                                <!--Inicio do li(item de lista)-->
+                                <li>
+                                    <!--Inicio da a(ancora)
+                                        Atributo classe do boostrap
+                                        como dropdown-item(item de menu que cai)
+                                        Atributo href(referencia de hiperlink)-->
+                                    <a 
+                                    class="dropdown-item"
+                                    href="monetizacao.html">
+                                        Relatórios de Monetização Google Analytics
+                                    </a>
+                                    <!--Fim da a(ancora) da classe dropdown-item-->
+                                </li>
+                                <!--Fim do li(item de lista)-->
+                                <!--Inicio do li(item de lista)-->
+                                <li>
+                                    <!--Inicio da a(ancora)
+                                        Atributo classe do boostrap
+                                        como dropdown-item(item de menu que cai)
+                                        Atributo href(referencia de hiperlink)-->
+                                    <a 
+                                    class="dropdown-item"
+                                    href="#">
+                                        Relatórios Demográficos Google Analytics
+                                    </a>
+                                    <!--Fim da a(ancora) da classe dropdown-item-->
+                                </li>
+                                <!--Fim do li(item de lista)-->
+                                <!--Inicio do li(item de lista)-->
+                                <li>
+                                    <!--Inicio do hr(Horizontal Rule, Regra horizontal e uma linha)
+                                        Atributo classe do bootstrap
+                                        como dropdown-divider(divisor de menu que cai)-->
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <!--Fim do li(item de lista)-->
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        Sobre a Zero ILuminum
+                                    </a>
+                                </li>
+                                <!--Fim do li(item de lista)-->
+                            </ul>
+                            <!--Fim da ul(lista desordenada) da classe dropdown-menu-->
+                            <!--Inicio do li(item da lista)
+                            Atributo classe do bootstrap 
+                            como nav-item(item da barra de navegação)-->
+                            <li 
+                            class="nav-item">
+                            <!--Inicio da a(ancora)
+                                Atributo classe do bootstrap
+                                como nav-link(link da barra de navegação)-->
+                            <a 
+                            class="nav-link active"
+                            href="entre_em_contato.html">
+                                Entre em contato
+                            </a>
+                            <!--Fim da a(ancora) da classe nav-link-->
+                            </li>
+                            <!--Fim do li(item da lista) da classe nav-item-->
+                        </li>
+                        <!--Fim do li(item da lista) da classe nav-item dropdown 
+                            Fim do menu dropdown-->
+                    </ul>
+                    <!--Fim da ul(lista desordenada) da classe navbar-nav me-auto mb-2 mb-lg-0
+                        Fim da escrita na barra de navegação-->
+                    <!--Inicio do form(formulario)
+                        Atributo classe do bootstrap 
+                        como d-flex(flexivel d)-->
+                    <!--Fim do form(formulario) da classe d-flex-->
+                </div>
+                <!--Fim da div da classe collapse navbar-collapse e id navbarSupportedContent-->
+            </div>
+            <!--Fim da div(divisoria) 
+                da classe container-fluid-->
+        </nav>
+        <!--Fim de nav(barra de navegação) 
+            da classe navbar navbar-expand-lg navbar-light bg-light-->
+        <main>
+            <div 
+            class="container">
+                <footer 
+                class="py-3 my-4">
+                    <ul 
+                    class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li 
+                        class="nav-item texto_Z">
+                            <a 
+                            href="../index.html" 
+                            class="nav-link px-2 text-muted">
+                                Zero ILuminum
+                            </a>
+                        </li>
+                        <li 
+                        class="nav-item">
+                            <a 
+                            href="../index.html" 
+                            class="nav-link px-2 text-muted">
+                                Pagina Inicial
+                            </a>
+                        </li>
+                        <li 
+                        class="nav-item">
+                            <a 
+                            href="entre_em_contato.html" 
+                            class="nav-link px-2 text-muted">
+                                Entre em Contato
+                            </a>
+                        </li>
+                    </ul>
+                        <p 
+                        class="text-center text-muted"> 
+                            &copy; All rights reserved by Zero ILuminum
+                        </p>
+                        <p 
+                        class="text-center text-muted">
+                            &copy; 2021 Zero ILuminum, Inc
+                        </p>
+                </footer>
+            </div>
+    </main>
+    </body>
+</html>

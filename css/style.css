@@ -1,0 +1,19 @@
+.texto_escuro{
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+    background-color: white;
+}
+
+.texto_Z{
+    font-family:"Scheherazade New";
+}
+
+.grafico{
+    background-image: url("img/Monetização.png");
+}
+
+img{
+    max-width: 100%;
+    max-height: max-content;
+}
